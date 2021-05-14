@@ -3,7 +3,7 @@
 <dl>
 
   <dt>VIDEO DEMO</dt><br />
-  <dd>* <a href="https://youtu.be/m2x__ek7_wo">Versión Web</a></dd>
+  <dd>* <a href="https://youtu.be/X7Wq8ZAS-XU">Versión Web</a></dd>
 
 </dl>
 
