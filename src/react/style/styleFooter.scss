@@ -1,0 +1,32 @@
+.divFooterContainer {
+  height: 15vw;
+  background-color: #1e1e1e;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.divLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 35%;
+}
+.columnLeft {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-right: 10%;
+}
+.titleFooter {
+  width: 125px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+}

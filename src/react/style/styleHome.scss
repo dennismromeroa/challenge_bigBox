@@ -1,0 +1,53 @@
+.divCarousel {
+  margin-top: 5.9vw;
+}
+
+.divFormContainer {
+  margin-top: 4vw;
+}
+.divForm {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.containerCard {
+  margin-top: 3vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.divCard {
+  width: 25vw !important;
+  height: 35vw;
+  display: flex;
+  text-align-last: center;
+  border-color: rgb(191, 191, 191);
+}
+
+.divCard:hover {
+  border-color: #ffc107;
+  color: #ffc107;
+}
+
+.imageCard {
+  margin-top: 1vw;
+  width: 15vw;
+  height: 20vw;
+}
+
+.divTitle {
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.divTitleAuthor {
+  font-size: 1.4vw;
+  color: gray;
+  text-align: center;
+  margin: 1vw;
+}
+
+.divDescription {
+  font-size: 1.2vw;
+  text-align: center;
+}
