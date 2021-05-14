@@ -1,9 +1,7 @@
 .divFooterContainer {
-  height: 15vw;
+  height: 13vw;
   background-color: #1e1e1e;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 100px;
+
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -12,21 +10,19 @@
   display: flex;
   flex-direction: row;
   justify-content: start;
-  width: 35%;
+  width: 70%;
 }
 .columnLeft {
+  width: 60vw;
   display: flex;
   flex-direction: column;
-  margin-top: 70px;
-  margin-right: 10%;
+  margin-top: 40px;
 }
 .titleFooter {
-  width: 125px;
+  width: 10vw;
   color: #ffffff;
   font-family: "Open Sans";
-  font-size: 16px;
+  font-size: 1vw;
   font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 16px;
-  padding-bottom: 10px;
+  padding-bottom: 1vw;
 }

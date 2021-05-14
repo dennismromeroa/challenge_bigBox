@@ -7,7 +7,6 @@ const getBooksCategory = (category) => ({
 });
 
 export const getCategoryBooks = () => (dispatch) =>{
-  console.log("entroo en axiooos")
   return axios
     .get(`https://api.nytimes.com/svc/books/v3/lists/names.json?api-key=wMrIxYjKdpTQq76wy7ngPAG1OD0VJy8j`,{
         headers: {

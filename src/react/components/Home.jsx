@@ -1,23 +1,24 @@
 import "../style/styleHome.scss";
 import { CardColumns, Card } from "react-bootstrap";
 
-import Search from "./Search";
-import Carousel from "./Carousel";
-
-const Home = ({ books, categories, filteredBooks, handleChange }) => {
+const Home = ({ filteredBooks }) => {
   return (
-    <div >
-      <Carousel className="divCarousel" />
-      <Search handleChange={handleChange} categories={categories} />
+    <div>
       <CardColumns className="containerCard">
         {filteredBooks.map((book) => {
           return (
-            <Card className="divCard">
-              <Card.Img
-                className="imageCard"
-                variant="top"
-                src={book.book_image}
-              />
+            <Card key={book} className="divCard">
+              <a
+                target="_blank"
+                href={`https://www.google.com/search?q=${book.author}`}
+              >
+                <Card.Img
+                  className="imageCard"
+                  variant="top"
+                  src={book.book_image}
+                />
+              </a>
+
               <Card.Body>
                 <Card.Title className="divTitle">{book.title}</Card.Title>
                 <Card.Subtitle className="divTitleAuthor">

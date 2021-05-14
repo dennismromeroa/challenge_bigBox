@@ -1,8 +1,7 @@
 import React from "react";
-import { Switch, Route } from "react-router";
+import { Switch, Route, Redirect } from "react-router";
 
 import HomeContainer from "./containers/HomeContainer";
-import SingleBookContainer from "./containers/SingleBookContainer"
 import Nabvar from "./containers/NabvarContainer";
 import Footer from "./components/Footer"
 
@@ -12,7 +11,7 @@ const Main = () => {
       <Nabvar />
       <Switch>
         <Route exact path="/home" component={HomeContainer} />
-        <Route exact path="/book" component={SingleBookContainer}/>
+        <Redirect to="/home"/>
       </Switch>
       <Footer/>
     </>

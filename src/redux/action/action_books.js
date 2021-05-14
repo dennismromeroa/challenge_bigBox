@@ -7,7 +7,6 @@ const getBooks = (books) => ({
 });
 
 export const getSearchBooks = (data, list) => (dispatch) =>{
-  console.log(data, list, "info desde axioooos")
   return axios
     .get(`https://api.nytimes.com/svc/books/v3/lists/${data}/${list}.json?api-key=wMrIxYjKdpTQq76wy7ngPAG1OD0VJy8j`,{
         headers: {
